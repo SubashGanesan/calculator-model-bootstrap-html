@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <title>Calculator</title>
+        <!-- <link rel="stylesheet" href="./css/bootstrap.css"> -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+                integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+                crossorigin="anonymous">
+        <link rel="stylesheet" href="./CalculatorProject.css">
+        <script src="https://kit.fontawesome.com/62c72b9538.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+        <div class="container">
+                <div class="row">
+                        <div class="col-xl-6 offset-xl-3 bgcolor">
+                                <div class="row">
+                                        <div class="col-xl-3 grybg">
+                                                <h5>Calculator</h5>
+                                        </div>
+                                        <div class="offset-xl-3 col-xl-2 grybg">
+                                                <button class="grybg">-</button>
+                                        </div>
+                                        <div class="col-xl-2 grybg">
+                                                <button class="grybg"><i class="fa fa-square-o" aria-hidden="true"></i></button>
+                                        </div>
+                                        <div class="col-xl-2 grybg">
+                                                <button class="grybg">x</button>
+                                        </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-xl-2">
+                                                <button class="grybg"><i class="fa fa-bars icons"></i></button>
+                                        </div>
+                                        <div class="col-xl-4">
+                                                <h3>Standard</h3>
+                                        </div>
+                                        <div class="col-xl-2 ">
+                                                <button class="grybg"><i class="fa fa-external-link-alt icons"></i></button>
+                                        </div>
+                                        <div class="col-xl-2 offset-xl-2 ">
+                                                <button class="grybg"><i class="fa fa-history icons"></i></button>
+                                        </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-xl-12 ">
+                                                <input class="disp" type="text" disabled>
+                                        </div>
+
+                                </div>
+                                <div class="row">
+                                        <div class="col-xl-2">
+                                                <button class="grybg" disabled>MC</button>
+                                        </div>
+                                        <div class="col-xl-2">
+                                                <button class="grybg" disabled>MR</button>
+                                        </div>
+                                        <div class="col-xl-2">
+                                                <button class="grybg">M+</button>
+                                        </div>
+                                        <div class="col-xl-2">
+                                                <button class="grybg">M-</button>
+                                        </div>
+                                        <div class="col-xl-2">
+                                                <button class="grybg">MS</button>
+                                        </div>
+                                        <div class="col-xl-2">
+                                                <button class="grybg" disabled>M</button>
+                                        </div>
+
+                                </div>
+                                <div class="row">
+                                        <div class="col-xl-3 px-1 ">
+                                                <button class="opbutton">%</button>
+                                        </div>
+                                        <div class="col-xl-3 px-1">
+                                                <button class="opbutton"><sup>2</sup><i class="fa fa-square-root-alt"></i></button>
+                                        </div>
+                                        <div class="col-xl-3 px-1">
+                                                <button class="opbutton">x<sup>2</sup></button>
+                                        </div>
+                                        <div class="col-xl-3 px-1">
+                                                <button class="opbutton">C</button>
+                                        </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-xl-3 px-1">
+                                                <button class="opbutton">1/x</button>
+                                        </div>
+                                        <div class="col-xl-3 px-1">
+                                                <button class="opbutton">CE</button>
+                                        </div>
+                                        <div class="col-xl-3 px-1">
+                                                <button class="opbutton"><i class="fa fa-backspace"></i></button>
+                                        </div>
+                                        <div class="col-xl-3 px-1">
+                                                <button class="opbutton">/</button>
+                                        </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-xl-3 px-1">
+                                                <button><b>7</b></button>
+                                        </div>
+                                        <div class="col-xl-3 px-1">
+                                                <button><b>8</b></button>
+                                        </div>
+                                        <div class="col-xl-3 px-1">
+                                                <button><b>9</b></button>
+                                        </div>
+                                        <div class="col-xl-3 px-1">
+                                                <button class="opbutton">*</button>
+                                        </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-xl-3 px-1">
+                                                <button><b>4</b></button>
+                                        </div>
+                                        <div class="col-xl-3 px-1">
+                                                <button><b>5</b></button>
+                                        </div>
+                                        <div class="col-xl-3 px-1">
+                                                <button><b>6</b></button>
+                                        </div>
+                                        <div class="col-xl-3 px-1">
+                                                <button class="opbutton">-</button>
+                                        </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-xl-3 px-1">
+                                                <button > <b>1</b></button>
+                                        </div>
+                                        <div class="col-xl-3 px-1">
+                                                <button><b>2</b></button>
+                                        </div>
+                                        <div class="col-xl-3 px-1">
+                                                <button><b>3</b></button>
+                                        </div>
+                                        <div class="col-xl-3 px-1">
+                                                <button class="opbutton">+</button>
+                                        </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-xl-3 px-1">
+                                                <button>+/-</button>
+                                        </div>
+                                        <div class="col-xl-3 px-1">
+                                                <button><b>0</b></button>
+                                        </div>
+                                        <div class="col-xl-3 px-1">
+                                                <button>.</button>
+                                        </div>
+                                        <div class="col-xl-3 px-1">
+                                                <button style=" background: skyblue">=</button>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+        <script>
+
+         
+        </script>
+</body>
+
+</html>
